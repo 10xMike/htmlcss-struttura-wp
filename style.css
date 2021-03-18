@@ -4,3 +4,15 @@
     padding: 0;
 }
 
+.container_header{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
