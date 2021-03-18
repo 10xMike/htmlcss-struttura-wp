@@ -10,9 +10,21 @@
     border: 1px solid black;
 }
 
+header{
+    height: 100px;
+    margin: auto;
+}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+
+.frontpage{
+    height: 500px;
+    background-color: cadetblue;
+}
+
+
 
